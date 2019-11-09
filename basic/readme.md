@@ -1,3 +1,3 @@
 # Basic
 
-All basic solved problem goes here
+All the basic solved problem goes here
