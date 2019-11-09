@@ -13,3 +13,5 @@ t = int(input())
 for tp in range(t):
     h, w = input().split()
     print(chessBoard(int(h), int(w)))
+
+    
