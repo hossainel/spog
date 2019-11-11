@@ -62,8 +62,13 @@ for tp in range(t):
             xop.append(l([x,y,x1,y1]))
         else:
             xop.append(p(x,y))
+            
     op = xop[0]
     for i in xop[1:]:
         op[0], op[1] = upperCo(i[:2]+op[:2])
         op[2], op[3] = lowerCo(i[2:]+op[2:])
     output(op)
+    if tp==t-1:
+        pass
+    else:
+        input()
