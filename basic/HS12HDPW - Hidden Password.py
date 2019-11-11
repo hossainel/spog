@@ -23,4 +23,6 @@ for tp in range(t):
     bascii = input()
     password = hiddenPassword(bkey, bascii)
     print(password)
+    if tp==t-1: pass
+    else: input()
 
